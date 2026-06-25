@@ -12,3 +12,23 @@ The application is based on the application from the getting started tutorial at
 
 !\[Node.js running](screenshots/nodejs.png)
 
+
+
+\### Python
+
+
+
+FastAPI app running in browser:
+
+
+
+!\[Python app running](screenshots/python1.png)
+
+
+
+PowerShell showing the Python container running:
+
+
+
+!\[Python container running](screenshots/python2.png)
+

@@ -1,8 +1,8 @@
 # syntax=docker/dockerfile:1
-
 FROM node:24-alpine
 WORKDIR /app
-COPY . .
+COPY package.json package-lock.json ./
 RUN npm install --omit=dev
-CMD ["node", "src/index.js"]
+COPY . .
 EXPOSE 3000
+CMD ["node", "src/index.js"]
